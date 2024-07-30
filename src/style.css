@@ -6,6 +6,7 @@ body{
 a {
     color: #0f465e;
 }
+
 .container {
 margin: 120px auto;
 max-width: 600px;
@@ -22,8 +23,6 @@ h1 {
     line-height: 1.5;
     color: #0f465e;
 }
-
-
 
 form {
     padding: 30px;
