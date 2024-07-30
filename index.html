@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Affirmation  Generator</title>
 </head>
 <body>
-  <header>  <h1>Affirmation Generator</h1> 
+    <div class="container">
+  <header>  <h1>Daily Affirmation Generator</h1> 
   </header>
 
   <main>
@@ -15,13 +19,17 @@
         <input 
         type="text" 
         placeholder="enter the focus of your affirmation" 
-        autofocus 
+
         required
-        autocomplete="off"/>
+        autocomplete="off"
+        class="prompt"
+        />
         <input 
-        type="submit"/>
+        type="submit"
+        class="submit-button"
+        />
     </form>
-    <div>
+    <div class="affirmation">
         Affirmation placeholder
         <br/>
         Affirmation placeholder
@@ -36,6 +44,7 @@
         <a href="https://something-generator.netlify.app/" 
         target="_blank">hosted on Netlify</a> 
     </footer>
+</div>
 
     <script src="src/script.js"></script> 
 </body>

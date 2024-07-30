@@ -1,3 +1,78 @@
 body{
-    background: plum;
+    background-color: #F2F2F2;
+    font-family: "Rajdhani", sans-serif;
+}
+
+a {
+    color: #0f465e;
+}
+.container {
+margin: 120px auto;
+max-width: 600px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 1.5;
+    color: #0f465e;
+}
+
+
+
+form {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 20px 60px 0px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+}
+
+.prompt {
+    padding: 15px;
+    border: 1px solid rgb(4, 102, 146);
+    border-radius: 4px;
+    width: 80%;
+    font-size: 18px;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.submit-button {
+    margin-left: 5px;
+    background-color: rgb(4, 102, 146);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 18px;
+    font-size: 18px;
+    font-family: "Rajdhani", sans-serif;
+  
+}
+
+.affirmation {
+    text-align: center;
+   font-size: 20px;
+   background-color: white; 
+   padding: 20px;
+   line-height: 24px;
+   font-weight: 425;
+   border-left: 3px solid yellow;
+   border-right: 3px solid yellow;
+   box-shadow: 0px 20px 60px 0px rgba(65, 50, 100, 0.08);
+   border-radius: 4px;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
 }
