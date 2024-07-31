@@ -18,21 +18,24 @@
   </header>
 
   <main>
-    <form id="affirmation-generator-form">
-        <input 
-        type="text" 
-        placeholder="enter the focus of your affirmation" 
-        required
-        autocomplete="off"
-        class="prompt"
-        id="user-input"
-        />
-        <input 
-        type="submit"
-        class="submit-button"
-        />
-    </form>
-    <div class="affirmation" id="affirmation"></div>
+      <div class="form-container">
+      <form id="affirmation-generator-form">
+          <input 
+          type="text" 
+          placeholder="enter the focus of your affirmation" 
+          required
+          autocomplete="off"
+          class="prompt"
+          id="user-input"
+          />
+          <input 
+          type="submit" 
+          class="submit-button"
+          />
+        </form>
+        <div class="hint">ie. family, courage, ♥️</div>
+    </div>
+    <div class="affirmation hidden " id="affirmation"></div>
   </main>
 
     <footer>

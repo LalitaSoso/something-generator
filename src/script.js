@@ -1,5 +1,4 @@
 function displayAffirmation(response){
-    console.log("affirmation generated");
 
 new Typewriter("#affirmation", {
     strings: response.data.answer,
@@ -19,10 +18,10 @@ let context =
 "You are a kind person who believes in your ability to project and manifest your future. You create quality affirmations using the user instructions. The affirmation must be provided in HTML format using <br /> if there is more than one sentence. Example: <p>this is an affirmation. <br /> This continues to be an affirmation</p>";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+let affirmationDisplayElement = document.querySelector("#affirmation");
+affirmationDisplayElement.classList.remove("hidden");
+affirmationDisplayElement.innerHTML = `<div class="generating"> Generating your affirmation about ${userInput.value}</div>`;
 
-console.log("Generating an affirmation");
-console.log(`Prompt: ${prompt}`);
-console.log(`Context: ${context}`);
 axios.get(apiUrl).then(displayAffirmation);
 }
 
